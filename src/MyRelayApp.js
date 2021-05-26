@@ -8,7 +8,7 @@ export const MyRelayApp = () => {
 
   const handleSwitchOnOff = () => {
     const handleRelay = () => {
-      axios.get("http://181.57.207.122:5000").then((res) => {
+      axios.get("https://181.57.207.122:5000").then((res) => {
         setstate(res.data.status);
       });
     };
